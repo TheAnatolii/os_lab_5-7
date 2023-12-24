@@ -1,7 +1,12 @@
-#pragma once
+//
+// Created by aldes on 15.12.2021.
+//
 
-enum class MessageTypes : int
-{
+#ifndef LAB6_MESSAGETYPES_H
+#define LAB6_MESSAGETYPES_H
+
+
+enum class MessageTypes : int {
     CREATE_REQUEST,
     CREATE_RESULT,
     CREATE_FAIL,
@@ -17,3 +22,5 @@ enum class MessageTypes : int
     EMPTY,
     TEST,
 };
+
+#endif //LAB6_MESSAGETYPES_H

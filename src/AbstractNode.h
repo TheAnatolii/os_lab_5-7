@@ -1,8 +1,14 @@
-#pragma once
+//
+// Created by aldes on 15.12.2021.
+//
+
+#ifndef LAB6_ABSTRACTNODE_H
+#define LAB6_ABSTRACTNODE_H
+
 
 #include <map>
 #include <unistd.h>
-#include <zmq.h>
+#include "zmq.hpp"
 #include "ChildNodeInfo.h"
 #include <mutex>
 #include <utility>
@@ -10,22 +16,18 @@
 
 using std::to_string;
 
-class AbstractNode
-{
+class AbstractNode {
 public:
     explicit AbstractNode(int id) : Id(id), Port(ZmqUtils::PORT_TO_BIND_FROM),
-                                    outerNodes(), context(1), Receiver(context, zmq::socket_type::rep)
-    {
+                                    outerNodes(), context(1), Receiver(context, zmq::socket_type::rep){
         occupyPort();
     }
 
     AbstractNode() {}
 
-    pid_t addChild(int id, int registerPort)
-    {
+    pid_t addChild(int id, int registerPort) {
         pid_t child = fork();
-        if (child == 0)
-        {
+        if (child == 0) {
             execl("server", to_string(id).c_str(), to_string(Id).c_str(),
                   to_string(Port).c_str(), to_string(registerPort).c_str(), NULL);
         }
@@ -39,8 +41,10 @@ protected:
     zmq::context_t context;
     zmq::socket_t Receiver;
 
-    void occupyPort()
-    {
+    void occupyPort() {
         Port = ZmqUtils::occupyPort(Receiver);
     }
 };
+
+
+#endif //LAB6_ABSTRACTNODE_H

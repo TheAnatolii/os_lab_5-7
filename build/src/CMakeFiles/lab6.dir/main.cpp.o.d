@@ -432,18 +432,17 @@ src/CMakeFiles/lab6.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/gethostuuid.h \
-  /opt/homebrew/include/zmq.h \
+  /opt/homebrew/include/zmq.hpp /opt/homebrew/include/zmq.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/signal.h \
-  /Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/src/ChildNodeInfo.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread \
-  /Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/src/MessageTypes.h \
-  /Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/src/ZmqUtils.h \
-  /opt/homebrew/include/zmq.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/array \
+  /Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/src/ChildNodeInfo.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread \
+  /Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/src/MessageTypes.h \
+  /Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/src/ZmqUtils.h \
   /Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/src/Message.h \
   /Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/src/MessageBuilder.h \
   /Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/src/MessageData.h

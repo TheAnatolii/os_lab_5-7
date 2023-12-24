@@ -1,11 +1,14 @@
+//
+// Created by aldes on 19.12.2021.
+//
+
 #include <zmq.hpp>
 #include <unistd.h>
 #include <iostream>
 #include <signal.h>
-#include <sys/wait.h>
+#include "sys/wait.h"
 #include "SpringBootApplication.h"
 #include "ServerNode.h"
-
 void child(int sig)
 {
     pid_t pid;
