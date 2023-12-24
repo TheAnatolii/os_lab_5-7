@@ -1,0 +1,6 @@
+/Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/build/CMakeFiles/edit_cache.dir
+/Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/build/CMakeFiles/rebuild_cache.dir
+/Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/build/src/CMakeFiles/lab6.dir
+/Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/build/src/CMakeFiles/server.dir
+/Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/build/src/CMakeFiles/edit_cache.dir
+/Users/anatolii/Desktop/Oper_Syst/hometask_5_7/laba/build/src/CMakeFiles/rebuild_cache.dir
