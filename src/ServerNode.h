@@ -50,7 +50,7 @@ public:
                 messageOut.sendMessage(Receiver);
                 break;
             case MessageTypes::HEARTBIT_REQUEST:
-                // std::cout << "Heartbit request arrived at server " << Id << std::endl;
+                std::cout << "Heartbit request arrived at server " << Id << std::endl;
                 time = *(int *)messageIn.body;
                 processPingRequest(time);
                 if (!ping)
